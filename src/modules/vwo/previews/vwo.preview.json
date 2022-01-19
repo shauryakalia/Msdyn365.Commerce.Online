@@ -1,0 +1,17 @@
+{
+    "id": "vwo",
+    "config": {
+      "accountId": 437674,
+      "settingsTolerance": 2000,
+      "libraryTolerance": 2500,
+      "useExistingJquery": false,
+      "isSpa": 1,
+      "hideElement": "body"
+    },
+    "data": {
+      "actionResponse": {
+        "text": "Sample Action Response"
+      }
+    },
+    "typeName": "vwo"
+  }

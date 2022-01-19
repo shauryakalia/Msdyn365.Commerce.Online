@@ -1,0 +1,68 @@
+{
+    "$type": "scriptModule",
+    "friendlyName": "VWO",
+    "name": "vwo",
+    "description": "VWO SmartCode",
+    "categories": [
+        "vwo",
+        "Scripts",
+        "HTML head"
+    ],
+    "tags": [
+        "scripts"
+    ],
+    "dataActions": {},
+    "attributes": {
+        "allowInBodyBegin": true,
+        "allowInHead": true
+    },
+    "config": {
+        "accountId": {
+            "friendlyName": "Account ID",
+            "description": "VWO Account Id",
+            "type": "number",
+            "required": true,
+            "group": "Script Properties"
+        },
+        "settingsTolerance": {
+            "friendlyName": "Settings Tolerance",
+            "description": "Set the time for which the asynchronous script will wait for the page settings to load",
+            "type": "number",
+            "default": 2000,
+            "required": true,
+            "group": "Script Properties"
+        },
+        "libraryTolerance": {
+            "friendlyName": "Library Tolerance",
+            "description": "If the page settings load within the settingsTolerance time interval, the code requests the VWO library (va.js or vanj.js) from our CDN and waits for the file to load at the interval indicated by the variable libraryTolerance else the VWO code on the page will show the control version (original version) instead",
+            "type": "number",
+            "default": 2500,
+            "required": true,
+            "group": "Script Properties"
+        },
+        "useExistingJquery": {
+            "friendlyName": "Use Existing Jquery",
+            "description": "If your account ID is higher than or equal to 460038, we do not serve you with the jQuery version 1.4.2. Instead, we serve you with a customized version that is five times smaller. We did this to ensure that your website remains performant enough while using VWO. To convert the VWO jQuery code snippet into a non-jQuery code snippet, set useExistingJquery to true in your config.",
+            "type": "boolean",
+            "default": false,
+            "required": true,
+            "group": "Script Properties"
+        },
+        "isSPA": {
+            "friendlyName": "is SPA",
+            "description": "is your website a Single Page Application?",
+            "type": "number",
+            "default": 1,
+            "required": true,
+            "group": "Script Properties"
+        },
+        "hideElement": {
+            "friendlyName": "Hide Element",
+            "description": "hide element",
+            "type": "string",
+            "default": "body",
+            "required": true,
+            "group": "Script Properties"
+        }
+    }
+}
