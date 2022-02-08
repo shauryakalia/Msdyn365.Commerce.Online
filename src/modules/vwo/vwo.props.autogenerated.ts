@@ -13,7 +13,6 @@ export interface IVwoConfig {
     libraryTolerance: number;
     useExistingJquery: boolean;
     isSPA: number;
-    hideElement: string;
 }
 
 export interface IVwoProps<T> extends Msdyn365.IModule<T> {

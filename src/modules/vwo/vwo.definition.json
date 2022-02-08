@@ -55,14 +55,6 @@
             "default": 1,
             "required": true,
             "group": "Script Properties"
-        },
-        "hideElement": {
-            "friendlyName": "Hide Element",
-            "description": "hide element",
-            "type": "string",
-            "default": "body",
-            "required": true,
-            "group": "Script Properties"
         }
     }
 }

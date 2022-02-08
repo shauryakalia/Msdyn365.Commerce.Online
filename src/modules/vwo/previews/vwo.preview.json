@@ -6,7 +6,6 @@
       "libraryTolerance": 2500,
       "useExistingJquery": false,
       "isSpa": 1,
-      "hideElement": "body"
     },
     "data": {
       "actionResponse": {

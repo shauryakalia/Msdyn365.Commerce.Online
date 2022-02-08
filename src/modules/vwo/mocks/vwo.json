@@ -5,8 +5,7 @@
     "settingsTolerance": 2000,
     "libraryTolerance": 2500,
     "useExistingJquery": false,
-    "isSpa": 1,
-    "hideElement": "body"
+    "isSpa": 1
   },
   "data": {
     "actionResponse": {
