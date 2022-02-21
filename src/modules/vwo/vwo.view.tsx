@@ -24,7 +24,6 @@ export default (props: IVwoViewProps) => {
         <>
             <HtmlHeadInclude>
                 <script data-load-point='headStart' dangerouslySetInnerHTML={{ __html: scriptContents }} />
-                <script data-load-point='headStart' async src={props.config.scriptSource} />
             </HtmlHeadInclude>
         </>
     );
